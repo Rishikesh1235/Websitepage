@@ -21,7 +21,7 @@ scene.add(light);
 // Load the 3D model
 const loader = new THREE.GLTFLoader();
 let model;
-loader.load('nose.gltf', function (gltf) {
+loader.load('scene.gltf', function (gltf) {
     model = gltf.scene;
     scene.add(model);
 }, undefined, function (error) {
