@@ -1,11 +1,4 @@
-// scripts.js
-document.querySelector('.login-btn').addEventListener('click', function() {
-    alert('Login functionality is not implemented in this demo.');
-});
 
-document.querySelector('.start-btn').addEventListener('click', function() {
-    alert('Get Started functionality is not implemented in this demo.');
-});
 // Scene setup
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
